@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid布局</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        .main {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 200px 400px;
+            grid-template-rows: 100px 400px 100px;
+        }
+
+        header {
+            background-color: #cc3;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        /*aside {
+            background-color: #3cc;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        main {
+            background-color: #c3c;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        footer {
+            background-color: #33ee00;
+            grid-column: 1/3;
+            grid-row: 3/4;
+        }*/
+    </style>
+</head>
+<body>
+<div class="main">
+    <header></header>
+    <aside></aside>
+    <main></main>
+    <footer></footer>
+</div>
+</body>
+</html>
