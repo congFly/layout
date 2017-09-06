@@ -55,5 +55,5 @@ grid布局：
 >
 > grid-row: 2 / span 3;  grid-column: span 2; 也可以使用 grid-row 和
 > grid-column 简写的形式，关键词 span 后面紧随数字，表示合并多少个列或行，/ 前面是从第几行/列开始。
-
-[grid学习PPT][1]
+>
+>[grid学习PPT](https://ppt.baomitu.com/d/653323dc)
