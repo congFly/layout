@@ -14,19 +14,32 @@ flex布局：
 >水平的主轴（main axis）和垂直的交叉轴（cross axis）
 >
 >属性:
+
 >flex-direction：主轴的方向。
+
 > flex-wrap：超出父容器子容器的排列样式。
+
 > flex-flow：flex-direction 属性和 flex-wrap属性的简写形式。
+
 > justify-content：子容器在主轴的排列方向。
+
 > align-items：子容器在交叉轴的排列方向。
+
 > align-content：多根轴线的对齐方式。
+
 >
 > 子容器属性：
+
 > order：子容器的排列顺序    数值越小，排列越靠前，默认为 0。
+
 > flex-grow：子容器剩余空间的拉伸比例
+
 > flex-shrink：子容器超出空间的压缩比例
+
 > flex-basis：子容器在不伸缩情况下的原始尺寸   定义了子容器在不伸缩情况下的原始尺寸，主轴为横向时代表宽度，主轴为纵向时代表高度。
+
 > align-self：允许单个项目有与其他项目不一样的对齐方式。
+
 
 
 
