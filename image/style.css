@@ -1,0 +1,6 @@
+img.desaturate {
+    filter: grayscale(100%);  /*修改所有图片的颜色为黑白 (100% 灰度)*/
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}

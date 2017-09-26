@@ -102,3 +102,9 @@ position:static absolute relative fixed
 > relative 相对定位，没有脱离文档流，相对于他原来在文档流中的位置
 >
 > fixed 看起来和absolute没有区别，实际上他是相对于浏览器去定位，不会随着页面滚动
+
+
+
+
+***********************
+# 一些css3效果

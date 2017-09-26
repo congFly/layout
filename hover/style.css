@@ -1,0 +1,15 @@
+div{
+    width:100px;
+    position:relative;
+}
+div:hover:after{
+    content:attr(data-msg);
+    position:absolute;
+    font-size: 12px;
+    width:200%;
+    line-height:30px;
+    text-align:center;
+    left:0;
+    top:25px;
+    border:1px solid green;
+}

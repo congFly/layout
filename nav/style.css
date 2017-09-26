@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+ul > li:not(:last-child)::after {
+    content: ',';
+}

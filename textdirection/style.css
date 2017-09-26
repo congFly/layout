@@ -1,0 +1,18 @@
+.verticle-mode {
+    writing-mode: tb-rl;
+}
+
+/* IE7比较弱，需要做点额外的动作 */
+/*
+.verticle-mode {
+    width: 120px;
+}
+.verticle-mode h4,
+.verticle-mode p {
+    *display: inline;
+    *writing-mode: tb-rl;
+}
+
+.verticle-mode h4 {
+    *float: right;
+ }*/

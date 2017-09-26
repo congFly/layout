@@ -1,0 +1,9 @@
+input {
+    caret-color: red;
+    display: block;
+    margin-bottom: .5em;
+}
+
+input.custom {
+    caret-color: red;
+}
