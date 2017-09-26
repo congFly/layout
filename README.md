@@ -6,6 +6,7 @@
 >  2. grid   二维布局
 >  3. 圣杯布局
 >  4. 双飞翼布局
+>  5. position
 
 flex布局：
 
@@ -95,6 +96,9 @@ grid布局：
 position:static absolute relative fixed
 
 > static（默认）
+>
 > absolute 绝对定位,脱离文档流，相对于最近已定位的元素
+>
 > relative 相对定位，没有脱离文档流，相对于他原来在文档流中的位置
+>
 > fixed 看起来和absolute没有区别，实际上他是相对于浏览器去定位，不会随着页面滚动
