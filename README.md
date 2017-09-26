@@ -90,3 +90,11 @@ grid布局：
 > 圣杯布局，当你将浏览器宽度缩短到一定程度的时候，会使得中间子元素的宽度比左右子元素宽度小的时候，这时候布局就会出现问题。
 > 圣杯布局，为了中间div内容不被遮挡，将中间div设置了左右padding-left和padding-right后，将左右两个div用相对布局position:
 > relative并分别配合right和left属性，以便左右两栏div移动后不遮挡中间div。
+
+
+position:static absolute relative fixed
+
+> static（默认）
+> absolute 绝对定位,脱离文档流，相对于最近已定位的元素
+> relative 相对定位，没有脱离文档流，相对于他原来在文档流中的位置
+> fixed 看起来和absolute没有区别，实际上他是相对于浏览器去定位，不会随着页面滚动
